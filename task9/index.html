@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Web App</title>
+	<style>
+
+
+        body{
+            margin: 0 auto;
+            text-align: center;
+            background-image: url("images/b.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 720px;
+            padding: 20px;
+        }
+        
+        .h {
+            background-color: rgba(211, 243, 239, 0.932);
+            border-width: 20pc;
+            padding: 10px;
+            border-radius: 25px;
+        }
+
+        #b1{
+            float: left;
+            height: 400px;
+            margin-top: 150px;
+            width: 400px;
+            background-image: url("images/docker-logo.png");
+            background-repeat: no-repeat;
+            background-size: auto;
+            border-radius: 50px;
+            box-shadow: 0 6px 0 4px rgb(92, 90, 90);
+        }
+
+        #b1:hover {
+            background-color: #b0c8ec
+        }
+
+        #b1:active {
+        background-color: #6b6c74;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+        }
+
+        #b2{
+            float: right;
+            height: 400px;
+            margin-top: 150px;
+            padding-left: 20px;
+            width: 400px;
+            background-image: url("images/kube-logo.png");
+            background-repeat: no-repeat;
+            background-size: auto;
+            border-radius: 50px;
+            box-shadow: 0 6px 0 4px rgb(92, 90, 90);
+        }
+        
+        #b2:hover {
+            background-color: #b0c8ec
+        }
+
+        #b2:active {
+        background-color: #6b6c74;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+        }
+
+
+        
+        
+       
+    </style>
+	<script src="docker.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+     
+    <div  class="h"><marquee width="80%" ><h1>WELCOME TO DOCKER AND KUBERNETES SERVICES WEB APP !!!! SELECT A SERVICE !!S!</h1></marquee></div>
+    <a href="docker.html">
+         <button  id="b1" type="button"class="btn btn-light" ></button>
+    </a>
+
+    <a href="kube.html">
+        <button  id="b2" type="button"class="btn btn-light" ></button>
+   </a>
+        
+    
+	
+</body>
+</html>
+

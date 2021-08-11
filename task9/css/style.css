@@ -1,0 +1,54 @@
+body{
+	margin: 0 auto;
+	background-image: url("../images/background.jpg");
+	background-size: 100% 720px;
+}
+
+.container{
+	width: 1000px;
+	height: 660px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(8, 68, 128, 0.2);
+	margin-top: 30px;
+	padding-top: 5px;
+}
+
+.h{
+	background-color: rgba(3, 19, 34, 0.2);
+	border-width: 20pc;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+.o{
+	background-color: rgba(181, 199, 216, 0.9);
+	margin-top: 195px;
+	height: 230px;
+        overflow: auto;
+}
+
+
+input[type="text"],input[type="password"]{
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+
+.form-input::before{
+	content: "\f007";
+	font-family: "FontAwesome";
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9; 
+}
+
+button{
+	 width: 150px;
+ }
